@@ -1,0 +1,70 @@
+html {
+    background-color: rgb(192, 171, 233); 
+    color:rgb(255, 255, 255);
+    font-family: "Antic Didone"
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto; /** this means: margin at bottom and top is ZERO margin at left and right is AUTO (means: take whatever is available)    */
+}
+
+
+.intro {
+    /* dot means 'class' */
+    border:5px; 
+    border-style: solid; 
+    border-color: #96e2a0; 
+    padding: 1em;
+}
+
+
+
+.statement {
+    border: 10px solid #8beb8b;
+    padding: 16px;
+    width: 300px;
+    margin-left: auto; /* outside */
+    margin-right: auto;
+}
+
+.topnav {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #96e2a0;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color:#ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(172, 144, 230);
+    color: #ffffff;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #54c59c;
+    color: white;
+  }
+/*Contact Html*/
+.contact.html {
+display: flex;
+flex-direction: column;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
